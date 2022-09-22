@@ -9,6 +9,7 @@ pipeline {
              steps {
                  sh 'javac Welcome.java'
                  sh 'java Welcome'
+                 sh 'mvn clean install'
                  
              }
          }
